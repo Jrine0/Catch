@@ -16,8 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connection String provided
-const MONGO_URI = "mongodb+srv://jitin4530_db_user:2Aq7PldsnSp3ArP9@cluster0.psbp60r.mongodb.net/CatchPlatform?retryWrites=true&w=majority";
-
+const MONGO_URI = "";
 mongoose.connect(MONGO_URI)
   .then(() => console.log('✅ Connected to MongoDB Atlas (Cluster0)'))
   .catch(err => console.error('❌ MongoDB Connection Error:', err));
