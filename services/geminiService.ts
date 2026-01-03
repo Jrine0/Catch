@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Bounty } from "../types";
 
 // User provided API Key
-const API_KEY = "AIzaSyDr16CDoZ1J32-1C5h3PxXcFEcQSw4vrrA";
+const API_KEY = "";
 
 // Helper to convert file to base64
 export const fileToBase64 = (file: File): Promise<string> => {
